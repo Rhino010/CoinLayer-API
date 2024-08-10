@@ -14,65 +14,18 @@
 <body>
     <table class = "table table-bordered">
         <thead class = "table-dark">
-            <tr>
-                <th scope = "col" style="color: white;">Name</th>
-                <th scope = "col" style="color: white;">Price</th>
-                <th scope = "col" style="color: white;">24 Hr High</th>
-                <th scope = "col" style="color: white;">24 Hr Low</th>
-                <th scope = "col" style="color: white;">Market Cap</th>
-                <th scope = "col" style="color: white;">Current Supply</th>
-            </tr>
+            <th style = "color: white;">Logo</th>
+            <th style = "color: white;">Name</th>
+            <th style = "color: white;">Current Price</th>
+            <th style = "color: white;">24 Hr High</th>
+            <th style = "color: white;">24 Hr Low</th>
+            <th style = "color: white;">Market Cap</th>
+            <th style = "color: white;">Supply</th>
         </thead>
-        <tbody id = "table_body">
-            <tr>
-                <td><img src="images\BTC.png" alt="bitcoin logo" width="50 px" height="50 px"></td>
-                <th class = "scope" style="color: white;">Bitcoin</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><img src="images\ETH.png" alt="ethereum logo" width="50 px" height="50 px"></td>
-                <th class="scope" style="color: white;">Ethereum</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><img src="images\ADA.png" alt="cardano logo" width="50 px" height="50 px"></td>
-                <th class="scope" style="color: white;">Cardano</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><img src="images\LINK.png" alt="chainlink logo" width="50 px" height="50 px"></td>
-                <th class="scope" style="color: white;">Chainlink</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><img src="images\USDT.png" alt="usdt logo" width="50 px" height="50 px"></td>
-                <th class="scope" style="color: white;">Tether USDT</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-
+        <tbody id = "table-body">
         </tbody>
     </table>
-    <button class = "button" onClick = "getData()">Refresh Feed</button>
+    <button class = "button" onClick = "renderTable()">Refresh Feed</button>
 
     </script>
 
